@@ -136,7 +136,7 @@ export async function loginAdmin(page: Page) {
     },
     data: {
       email: "admin@chantilly.com",
-      password: "Admin123*",
+      password: "admin123",
     },
   });
   await expectOk(loginResponse, "Login admin E2E");
